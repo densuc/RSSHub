@@ -15,7 +15,7 @@
     "format:staged": "eslint \"**/*.js\" --fix && node docs/format.js && pretty-quick --staged --verbose --pattern \"**/*.{js,json,md}\"",
     "format:check": "eslint \"**/*.js\" && prettier-check \"**/*.{js,json,md}\"",
     "test": "npm run format:check && cross-env NODE_ENV=test jest --coverage --runInBand --forceExit",
-    "jest": "cross-env NODE_ENV=test jest --runInBand --forceExit"，
+    "jest": "cross-env NODE_ENV=test jest --runInBand --forceExit",
     "build": "[rsshub] build --output public"
   },
   "repository": {
